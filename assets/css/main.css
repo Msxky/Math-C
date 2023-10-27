@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap');
+
+*, html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --colorPrimary: #FFCF01;
+  --colorDark: #282828;
+  --colorLight: #F2F2F2;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  background: var(--colorDark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+}
+
+#judul-apk {
+  font-family: 'Mochiy Pop One', sans-serif;
+  color: var(--colorLight);
+  cursor: pointer;
+}
+
+.bx-math {
+  color: var(--colorLight);
+  font-size: 35px;
+  transition: all .2s ease;
+}
+
+.bx-math:hover {
+  color: var(--colorLight);
+  text-shadow: 0 0 5px var(--colorPrimary),
+  0 0 100px var(--colorPrimary), 0 0 10px var(--colorPrimary);
+  scale: 1.1;
+  font-size: 35px;
+  transition: all .2s ease;
+}
+
+/* .display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.isi-content {
+  top: 20%;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color:var(--colorPrimary);
+
+}
+
+.isi-content h1{
+  top: 20%;
+  color: var(--colorDark);
+  scale: .9;
+  font-family: 'Mochiy Pop One', sans-serif;
+  position: absolute;
+  transition: all .3s ease;
+}
+.isi-content h1:hover{
+  color: var(--colorDark);
+  scale: 1;
+  transition: all .3s ease;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.title{
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  top: 60%;
+}
+
+.title h3{
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.h31, .h32{
+  border: 2px solid var(--colorDark);
+  border-radius: 15px;
+  color: var(--colorLight);
+  scale:.9;
+  background: var(--colorDark);
+  transition: all .3s ease;
+}
+
+.h31:hover, .h32:hover{
+  border-radius: 15px;
+  scale: 1;
+  color: var(--colorDark);
+  background: var(--colorLight);
+  box-shadow: 0 0 10px var(--colorDark),0 0 10px var(--colorDark);
+  transition: all .3s ease;
+}
+
+.footer {
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--colorDark);
+  width: 100%;
+  height: 10vh;
+}
+
+button {
+  font-weight: 800;
+  background: var(--colorPrimary);
+  box-shadow: 0 0 10px var(--colorPrimary);
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Mochiy Pop One', sans-serif;
+  transition: all .3s ease;
+}
+
+button:hover{
+  color: var(--colorLight);
+  background: var(--colorDark);
+  border: 2px solid var(--colorPrimary);
+  scale: 1.1;
+  transition: all .3s ease;
+}
+
+/* CSS PENJUMBLAHAN */
+.penjumblahan{
+  bottom: 55%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h11, .h12{
+border: 2px solid var(--colorLight);
+background: var(--colorDark);
+color: var(--colorLight);
+font-size: 25px;  
+font-weight: 800;
+margin-bottom: 40px;
+padding: 10px 20px;
+border-radius: 10px;
+scale: .9;
+transition: all .3s ease;
+}
+
+.h11:hover, .h12:hover{
+  border-radius: 15px;
+  scale: 1;
+  color: var(--colorDark);
+  background: var(--colorLight);
+  box-shadow: 0 0 10px var(--colorDark),0 0 10px var(--colorDark);
+  transition: all .3s ease;
+}
+/* CSS PENJUMBLAHAN END */
+
+/* CSS PENJUMBLAHAN 10 */
+.h1-penjumblahan10{
+  text-align: center;
+  margin: 20px;
+}
+.penjumblahan10{
+  margin-left: 30px;
+  font-size: 20px;
+  color: var(--colorDark);
+  bottom: 55%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* CSS PENJUMBLAHAN 10 END */
+
+/* CSS PENJUMBLAHAN 20 */
+
+/* CSS PENJUMBLAHAN 20 END */
+
+
+/* MEDIA SCREEN EDIT ULANG */
+@media (max-width: 475px) {
+
+  nav {
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  #judul-apk {
+    left: 10px;
+    font-size: 20px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: var(--colorLight);
+  }
+
+  .bx-math {
+    color: var(--colorLight);
+    font-size: 35px;
+  }
+}
