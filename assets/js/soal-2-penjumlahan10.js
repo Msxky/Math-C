@@ -14,7 +14,7 @@ const hore = new Audio("/assets/audio/soal/hore.mp3");
 playSoalA.load();
 playSoalA.autoplay = true;
 playSoalA.play();
-function playSoal() {
+function playSoalFixBug() {
   playSoalA.play();
 }
 
