@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="../img/icon.png" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>Math Counting</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- NAVBAR -->
+      <nav>
+        <h2 id="judul-apk"></h2>
+        <a href="pilih-lah.html"><i class='bx bx-math'></i></a>
+      </nav>
+      <!-- ISI -->
+      <div class="display">
+      <div class="isi-content">
+        <!-- ISI CONTENT DISINI -->
+        <h1 onclick="pilihlah()">PILIH LAH</h1>
+        <div class="content">
+          <img src="../img/crop.png" alt="gambar-1" width="76%">
+        </div>
+        <div class="title">
+          <h3 class="h31" name="pilihan" onclick="Penjumlahan()" >Penjumlahan</h3>
+            <h3 class="h32" name="pilihan" onclick="Pengurangan()">Pengurangan</h3>
+        </div>
+        <!-- CONTENT END -->
+      </div>
+    </div>
+      <div class="footer">
+        <button onclick="btnKembali()">Kembali</button>
+        <button onclick="btnLanjut()">Lanjut</button>
+      </div>
+    </div>
+    <script src="../js/title.js"></script>
+    <script src="../js/pilih-lah.js"></script>
+    <script src="../js/alternative.js"></script>
+  </body>
+</html>
