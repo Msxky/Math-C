@@ -5,7 +5,6 @@ pilihlahAntaraBerikut.load();
 pilihlahAntaraBerikut.autoplay = true;
 pilihlahAntaraBerikut.play();
 function pilihlah() {
-  window.onload()
   audioPenjumlahan.pause();
   pilihlahAntaraBerikut.play();
 }
