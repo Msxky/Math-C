@@ -1,11 +1,11 @@
 const pilihlahAntaraBerikut = new Audio(
   "/assets/audio/pilihlah-antara-berikut.mp3"
 );
-pilihlahAntaraBerikut.load();
-window.onload() 
+pilihlahAntaraBerikut.load(); 
 pilihlahAntaraBerikut.autoplay = true;
 pilihlahAntaraBerikut.play();
 function pilihlah() {
+  window.onload()
   audioPenjumlahan.pause();
   pilihlahAntaraBerikut.play();
 }
