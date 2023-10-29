@@ -1,6 +1,6 @@
 const titleH = document.getElementById("h1Soal");
 const soal = document.getElementById("soal");
-const playSoalA = new Audio("/assets/audio/soal/penjumlahan10/soalkedua.mp3");
+const playSoalA = new Audio("/assets/audio/soal/penjumlahan10/soalKedua.mp3");
 const playCaraA = new Audio("/assets/audio/soal/penjumlahan10/5+2.mp3");
 const option1A = new Audio("/assets/audio/soal/number/7.mp3");
 const option2A = new Audio("/assets/audio/soal/number/3.mp3");
