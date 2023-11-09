@@ -1,8 +1,6 @@
 const KamuPintarA = new Audio("/assets/audio/kamu-pintar.mp3");
 
 KamuPintarA.play();
-KamuPintarA.load();
-KamuPintarA.autoplay = true;
 function KamuPintar() {
   KamuPintarA.play();
 }
